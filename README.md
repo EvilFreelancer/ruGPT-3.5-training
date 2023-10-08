@@ -37,7 +37,7 @@ First of all I would like to extend our sincere gratitude to the following autho
   invaluable resources and datasets from Saiga-2/GigaSaiga, which have been fundamental in the training process of this
   custom ruGPT-3.5-13B model.
 
-- [graysonwhite](https://github.com/graysonwhite) and the [gglm](https://github.com/graysonwhite/gglm) project team. am
+- [graysonwhite](https://github.com/graysonwhite) and the [gglm](https://github.com/graysonwhite/gglm) project team. I'm
   particularly thankful for their comprehensive documentation on the ggml project, which has been indispensable in
   guiding me through the correct procedures for model transformation.
 
