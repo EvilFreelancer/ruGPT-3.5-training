@@ -1,25 +1,35 @@
-# Training ruGPT-3.5 with LoRA
+# Training ruGPT-3.5 13B with LoRA
 
 This repository provides a curated collection of scripts and a Jupyter Notebook designed for training a custom
-`ruGPT-3.5-13B` model in `load_in_8bit` mode utilizing datasets
-from [Saiga-2 (rulm)](https://github.com/IlyaGusev/rulm). The training process incorporates
-the use of Peft/LoRA, and the provided resources facilitate not only the training but also the merging of LoRA weights
-with the original model, followed by the conversion of the model into GGML format.
+`ruGPT-3.5-13B` model in the `load_in_8bit` mode utilizing datasets and some scripts
+from [Saiga-2 (rulm)](https://github.com/IlyaGusev/rulm).
+
+The training process outlined here leverages Peft/LoRA technology. The resources provided are designed to facilitate a
+smooth training experience, seamless merging of LoRA weights with the original model, and a straightforward conversion
+of the model into the GGML format.
 
 > Note: While the training settings for this model mirror those used
-> in [GigaSaiga](https://huggingface.co/IlyaGusev/gigasaiga_lora), our custom model is enriched with two
-> additional datasets, enhancing its performance and capabilities.
+> in [GigaSaiga](https://huggingface.co/IlyaGusev/gigasaiga_lora), but my model is enriched with two
+> additional datasets.
 
-By adhering to the instructions and utilizing the scripts provided in this repository, users can efficiently train their
-version of the `ruGPT-3.5-13B` model. Although the scripts are configured to work with `Saiga-2` datasets, users have
-the flexibility to integrate additional datasets of their choice to tailor the model to specific requirements and use
-cases.
+The primary objective of this repository is to reproduce the success achieved by GigaSaiga and to provide a detailed,
+step-by-step documentation of the training procedure. This initiative aims to empower and support the Russian-speaking
+ML community by making the process of training the ruGPT-3.5-13B model more accessible and understandable.
+
+For your convenience, pretrained models are readily available at the following locations:
+
+- https://huggingface.co/evilfreelancer/ruGPT-3.5-13B-lora
+- https://huggingface.co/evilfreelancer/ruGPT-3.5-13B-ggml
+
+By following the instructions and using the scripts provided in this repository, users can efficiently train their
+versions of the ruGPT-3.5-13B model with the flexibility to incorporate additional datasets as necessary.
 
 ## Acknowledgments
 
 First of all I would like to extend our sincere gratitude to the following authors and contributors:
 
-- The [Sber AI](https://ai.sber.ru/) Team, the brains behind the original ruGPT-3.5-13B model. Their groundbreaking work
+- The [Sber AI](https://ai.sber.ru/) Team, the brains behind the original `ruGPT-3.5-13B` model. Their groundbreaking
+  work
   and continuous efforts in advancing AI and machine learning technologies have laid a solid foundation for this project
   and many others in the AI community.
 
