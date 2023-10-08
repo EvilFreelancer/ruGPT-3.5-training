@@ -1,5 +1,6 @@
 /.git/
 /.idea/
+/venv/
 /ruGPT-3.5-13B/
 /docker-compose.yml
 /wandb/
