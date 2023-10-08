@@ -1,0 +1,9 @@
+/.git/
+/.idea/
+/ruGPT-3.5-13B/
+/docker-compose.yml
+/wandb/
+__pycache__
+*.jsonl
+/output/
+/output_ggml/
