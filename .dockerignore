@@ -3,6 +3,7 @@
 /ruGPT-3.5-13B/
 /docker-compose.yml
 /wandb/
+/cache/
 __pycache__
 *.jsonl
 /output/

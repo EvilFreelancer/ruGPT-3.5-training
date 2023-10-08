@@ -1,6 +1,6 @@
 numpy>=1.26.0
 scipy>=1.11.0
-torch>=2.1.0
+torch==2.0.1
 accelerate==0.23.0
 bitsandbytes==0.41.1
 peft==0.5.0
