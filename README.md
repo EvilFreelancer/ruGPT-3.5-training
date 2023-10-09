@@ -9,8 +9,8 @@ smooth training experience, seamless merging of LoRA weights with the original m
 of the model into the GGML format.
 
 > Note: While the training settings for this model mirror those used
-> in [GigaSaiga](https://huggingface.co/IlyaGusev/gigasaiga_lora), but my model is enriched with two
-> additional datasets.
+> in [GigaSaiga](https://huggingface.co/IlyaGusev/gigasaiga_lora), but my model is enriched with
+> additional dataset.
 
 The primary objective of this repository is to reproduce the success achieved by GigaSaiga and to provide a detailed,
 step-by-step documentation of the training procedure. This initiative aims to empower and support the Russian-speaking
